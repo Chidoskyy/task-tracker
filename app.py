@@ -24,3 +24,4 @@ class Handler(BaseHTTPRequestHandler):
  
 print(f"Task Tracker {VERSION} listening on port {PORT}", flush=True)
 HTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
+TASKS = ["Set a budget alert", "Launch an EC2 instance", "Deploy Task Tracker", "Learn Git"]
