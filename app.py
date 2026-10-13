@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
  
-VERSION = "1.0"
+VERSION = "2.0"
 PORT = 8080
 TASKS = ["Set a budget alert", "Launch an EC2 instance", "Deploy Task Tracker"]
  
